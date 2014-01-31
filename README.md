@@ -1,6 +1,6 @@
-*/git-init:new-repository("Peaceful.Ghost")
-============================================
-//peace-in-logic//
+Peaceful.Ghost
+================
+//"peace-in-logic"
 git -init "README.h"
 git -add "README.h"
 git -commit -m "First_Commit"
