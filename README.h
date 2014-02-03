@@ -5,12 +5,12 @@
 ###README.h-]
 // some organization config.files and a readme//
 git -init/
-git -init -organization --organization.name:"ghostXcitizen"/
-git -init -organization -main.repository:"Peaceful.Ghost"/
+git -init -organization --organization.name:(*ghostXcitizen)
+git -init -organization -main.repository:Peaceful.Ghost/
 $set-organization-owner.names:"ghostXcity"(@ghostXcity.git)&&"ghostXtown"(@ghostXtown.git)
-git -add README.h --commit README.h -m "First_Commit"]
+git -add README.h --commit README.h -m First_Commit-]
 $-mkdir ~/https://www.github.com/ghostXcitizen/Peaceful.Ghost]
-git -push -master-uname:"ghostXcity" --repository.name:"Peaceful.Ghost"]
+git -push -master-uname:"ghostXcity" --repository.name:Peaceful.Ghost-]
 git -push -organization.owner:ghostXcity -organization.name:ghostXcitizen]
 $-set-repo:Peaceful.Ghost --master -ghostXcity --bool:true;]
 $-echo -set --echo:true]
