@@ -10,14 +10,14 @@ git -init -organization -main.repository:Peaceful.Ghost/
 $set-organization-owner.names:"ghostXcity"(@ghostXcity.git)&&"ghostXtown"(@ghostXtown.git)
 git -add README.h --commit README.h -m First_Commit-]
 $-mkdir ~/https://www.github.com/ghostXcitizen/Peaceful.Ghost]
-git -push -master-uname:"ghostXcity" --repository.name:Peaceful.Ghost-]
+git -push -master-uname:ghostXcity--repository.name:Peaceful.Ghost-]
 git -push -organization.owner:ghostXcity -organization.name:ghostXcitizen]
 $-set-repo:Peaceful.Ghost --master -ghostXcity --bool:true;]
 $-echo -set --echo:true]
 git -help --web.commit]
 sudo mkdir -p -/Peaceful.Ghost/share/doc]
 $cd -/usr/share/git-doc]
-$git-config --global -help.format-web
+$git-add--git.help-web.commit]
 git-info -repo.changes -l-a]
 git-status --show -diff.log]
 git-info -Peaceful.Ghost-page--show:author_names--show:contributors]
