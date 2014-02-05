@@ -1,0 +1,25 @@
+*ghostXcity doc.organization init:"Peaceful.Ghost.git"/
+*git-int:-organization.repo:"Peaceful.Ghost.git";
+--set:owner.namespace=ghostXcity:(@ghostXcity.git);
+--set:path @/https://www.github.com/ghostXcity/Peaceful.Ghost.git;
+git-push:master--uname:ghostXcity]--repository.name:Peaceful.Ghost;
+--echo:owner -ghostXcity organization -Peaceful.Ghost;-echo:set;-bool:true;]
+/$-bool--Peaceful.Ghost:init(true);
+git-push--global:organization-do{block:[remote]\n||bool:true};
+git-add--commit:"help.git"]
+--set-new-branch@/ghostXcity/help.git;elseif{
+{(path==!);do=git-info;
+git-set:options/--list-all;
+--set:options-list:"verbose;"()
+git-status;--show:status;
+git-diff.log;--do:printf(show:diff.log);
+git-info:Peaceful.Ghost:"gh-page.git";
+$--show:author_names/$--show:contributors;
+git:option.^list]--do:init.config-repository.opts;]
+git.config:core-auto.clrf=true;
+git.config--global/$set:no-blank-spaces(set:nbsp)bool:true;
+git-init-alias:all;
+git-config:global-user.email:ighostxhub@gmail.com:(@ighostxhub.git);
+git-init:repository-branch:"organization-git.log"@/ghostXcity/Peaceful.Ghost.log;]
+/$bool:true;do:set-chron("")time:(format:/DD/MM/YYYY/);
+git--echo:set-all;|end\n;
