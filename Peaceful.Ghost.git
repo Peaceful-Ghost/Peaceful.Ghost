@@ -9,8 +9,7 @@ git-push--global:organization-do{block:[remote]\n||bool:true};
 git-add--commit:"help.git"]
 --set-new-branch@/ghostXcity/help.git;elseif{
 {(path==!);do=git-info;
-git-set:options/--list-all;
---set:options-list:"verbose;"()
+git-set:options/--list-all -set:verbose;
 git-status;--show:status;
 git-diff.log;--do:printf(show:diff.log);
 git-info:Peaceful.Ghost:"gh-page.git";
@@ -23,3 +22,6 @@ git-config:global-user.email:ighostxhub@gmail.com:(@ighostxhub.git);
 git-init:repository-branch:"organization-git.log"@/ghostXcity/Peaceful.Ghost.log;]
 /$bool:true;do:set-chron("")time:(format:/DD/MM/YYYY/);
 git--echo:set-all;|end\n;
+git command --help;
+help- file:stored $HOME/git.config/
+git config --help;
